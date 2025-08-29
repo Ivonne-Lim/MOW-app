@@ -1,0 +1,13 @@
+package org.merrymeal.mow;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class M13MtseUrmc70924PsApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

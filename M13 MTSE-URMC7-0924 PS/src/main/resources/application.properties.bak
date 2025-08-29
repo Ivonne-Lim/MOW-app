@@ -1,0 +1,31 @@
+spring.application.name = M13 MTSE-URMC7-0924 PS
+
+## Port -- switch from 8080 (http) to 9443 (https)
+server.port = 9443
+
+## SSL -- set CA-signed certificate for https
+server.ssl.enabled = true
+server.ssl.certificate = classpath:localhost.crt
+server.ssl.certificate-private-key = classpath:localhost.key
+
+## SSL -- set self-signed certificate for https
+# server.ssl.key-store = classpath:keystore.p12
+# server.ssl.key-store-password = password
+# server.ssl.keyStoreType = PKCS12
+# server.ssl.keyAlias = tomcat
+
+## MVC -- set prefix and suffix
+spring.mvc.view.prefix = /WEB-INF/views/
+spring.mvc.view.suffix = .jsp
+
+## JPA -- set show_sql, dialect, DDL-auto (create, update, create-drop or none) and logging level
+spring.jpa.properties.hibernate.show_sql = true
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto = none
+logging.level.org.hibernate.SQL = debug
+
+## Datasource -- connect MySQL
+spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:mysql://localhost:3306/mydb(mow)
+spring.datasource.username = root
+spring.datasource.password = placeholder

@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755307856224,65,HTTP Request (User-Guide-1),200,OK,Thread Group 1-2,text,true,,3224663,973,5,5,https://mow.azurewebsites.net/pdf/guide-user.pdf,13,0,0
+1755307856224,65,Transaction Controller (User-Guide),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3224663,973,5,5,null,13,1,0
+1755307857847,91,HTTP Request (User-Guide-1),200,OK,Thread Group 1-3,text,true,,3224663,973,4,4,https://mow.azurewebsites.net/pdf/guide-user.pdf,7,0,0
+1755307857847,91,Transaction Controller (User-Guide),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,3224663,973,4,4,null,7,0,0
+1755307856317,1707,HTTP Request (User-Guide-1),200,OK,Thread Group 1-4,text,true,,3224663,973,3,3,https://mow.azurewebsites.net/pdf/guide-user.pdf,1520,0,0
+1755307856317,1707,Transaction Controller (User-Guide),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,3224663,973,3,3,null,1520,0,0
+1755307856288,2058,HTTP Request (User-Guide-1),200,OK,Thread Group 1-5,text,true,,3224663,973,2,2,https://mow.azurewebsites.net/pdf/guide-user.pdf,9,0,0
+1755307856288,2058,Transaction Controller (User-Guide),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,3224663,973,2,2,null,9,0,0
+1755307856304,2091,HTTP Request (User-Guide-1),200,OK,Thread Group 1-1,text,true,,3224663,973,1,1,https://mow.azurewebsites.net/pdf/guide-user.pdf,9,0,0
+1755307856304,2091,Transaction Controller (User-Guide),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3224663,973,1,1,null,9,0,0

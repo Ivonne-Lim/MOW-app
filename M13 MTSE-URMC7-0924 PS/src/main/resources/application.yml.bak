@@ -1,0 +1,20 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 2901400710045702
+            client-secret: placeholder
+            client-name: Facebook
+            redirect-uri: https://localhost:9443/login/oauth2/code/facebook
+            authorization-grant-type: authorization_code
+            scope:
+              - public_profile
+              - email
+        provider:
+          facebook:
+            token-uri: https://graph.facebook.com/oauth/access_token
+            authorization-uri: https://www.facebook.com/dialog/oauth
+            user-info-uri: https://graph.facebook.com/me?fields=id,name,email
+            user-name-attribute: id

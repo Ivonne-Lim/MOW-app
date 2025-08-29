@@ -1,0 +1,54 @@
+// Import middleware
+
+const express    = require('express');
+const cors       = require('cors');
+const fileUpload = require('express-fileupload');
+
+
+// Setup middleware
+
+const app  = express();
+const port = process.env.PORT || 4000;
+
+app.use(express.static('public')); // To access the files in public folder
+app.use(cors());                   // To enable all CORS requests
+app.use(fileUpload());
+
+
+// Setup file upload API
+
+app.post('/file-upload', (request, response) => {
+
+
+    // Access the file
+
+    if (!request.files) {
+        return response.status(400).send({statusText: `File not found`})
+    }
+
+    const upload = request.files.file;
+
+
+    // Save the file inside public directory using mv() method
+
+    upload.mv(`${__dirname}/public/assets/${upload.name}`,
+                function (error) {
+                    if (error) {
+                        console.log(error)
+                        return response.status(500).send({statusText: `File not saved`});
+                    }
+                    // Return response with path
+                    return response.status(200).send({file: `assets/${upload.name}`});
+                });
+
+
+})
+
+
+// Run file upload API
+
+app.listen(port, () => {
+
+    console.log(`Server is running at port ${port}`);
+
+})

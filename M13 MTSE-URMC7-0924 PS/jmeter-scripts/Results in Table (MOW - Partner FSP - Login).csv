@@ -1,0 +1,106 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755310501384,63,HTTP Request (Access-1),200,OK,Thread Group 1-1,text,true,,3140,757,1,1,https://mow.azurewebsites.net/access?access=Login,62,0,33
+1755310501447,11,HTTP Request (Access-2),200,OK,Thread Group 1-1,text,true,,11330,816,1,1,https://mow.azurewebsites.net/css/jquery-ui.css,10,0,0
+1755310501458,9,HTTP Request (Access-3),200,OK,Thread Group 1-1,text,true,,1483,813,1,1,https://mow.azurewebsites.net/css/styles.css,9,0,0
+1755310501467,10,HTTP Request (Access-4),200,OK,Thread Group 1-1,bin,true,,7236,864,1,1,https://mow.azurewebsites.net/images/logo-mow.png,9,0,0
+1755310501477,8,HTTP Request (Access-5),200,OK,Thread Group 1-1,bin,true,,7719,869,1,1,https://mow.azurewebsites.net/images/logo-facebook.png,8,0,0
+1755310501485,9,HTTP Request (Access-6),200,OK,Thread Group 1-1,bin,true,,11173,875,1,1,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,9,0,0
+1755310501494,17,HTTP Request (Access-7),200,OK,Thread Group 1-1,text,true,,113683,797,1,1,https://mow.azurewebsites.net/js/jquery.js,10,0,0
+1755310501512,31,HTTP Request (Access-8),200,OK,Thread Group 1-1,text,true,,178280,800,1,1,https://mow.azurewebsites.net/js/jquery-ui.js,12,0,0
+1755310501543,9,HTTP Request (Access-9),200,OK,Thread Group 1-1,text,true,,1217,798,1,1,https://mow.azurewebsites.net/js/scripts.js,9,0,0
+1755310501383,167,Transaction Controller (Access),200,"Number of samples in transaction : 9, number of failing samples : 0",Thread Group 1-1,,true,,335261,7389,1,1,null,138,2,33
+1755310501591,45,HTTP Request (Access-1),200,OK,Thread Group 1-2,text,true,,3140,757,2,2,https://mow.azurewebsites.net/access?access=Login,45,0,14
+1755310501636,9,HTTP Request (Access-2),200,OK,Thread Group 1-2,text,true,,11330,816,2,2,https://mow.azurewebsites.net/css/jquery-ui.css,9,0,0
+1755310501645,10,HTTP Request (Access-3),200,OK,Thread Group 1-2,text,true,,1483,813,2,2,https://mow.azurewebsites.net/css/styles.css,10,0,0
+1755310501655,10,HTTP Request (Access-4),200,OK,Thread Group 1-2,bin,true,,7236,864,2,2,https://mow.azurewebsites.net/images/logo-mow.png,10,0,0
+1755310501665,9,HTTP Request (Access-5),200,OK,Thread Group 1-2,bin,true,,7719,869,2,2,https://mow.azurewebsites.net/images/logo-facebook.png,8,0,0
+1755310501674,8,HTTP Request (Access-6),200,OK,Thread Group 1-2,bin,true,,11173,875,2,2,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,8,0,0
+1755310501682,18,HTTP Request (Access-7),200,OK,Thread Group 1-2,text,true,,113681,797,2,2,https://mow.azurewebsites.net/js/jquery.js,9,0,0
+1755310501552,174,HTTP Request (Login-10),200,OK,Thread Group 1-1,text,true,,3215,2369,2,2,https://mow.azurewebsites.net/login_success,155,0,0
+1755310501552,155,HTTP Request (Login-10)-0,302,,Thread Group 1-1,,true,,470,1272,2,2,https://mow.azurewebsites.net/login,155,0,0
+1755310501707,19,HTTP Request (Login-10)-1,200,OK,Thread Group 1-1,text,true,,2745,1097,2,2,https://mow.azurewebsites.net/login_success,19,0,0
+1755310501700,28,HTTP Request (Access-8),200,OK,Thread Group 1-2,text,true,,178280,800,2,2,https://mow.azurewebsites.net/js/jquery-ui.js,8,0,0
+1755310501728,8,HTTP Request (Access-9),200,OK,Thread Group 1-2,text,true,,1217,798,2,2,https://mow.azurewebsites.net/js/scripts.js,8,0,0
+1755310501726,10,HTTP Request (Login-12),200,OK,Thread Group 1-1,text,true,,11323,810,2,2,https://mow.azurewebsites.net/css/jquery-ui.css,9,0,0
+1755310501591,145,Transaction Controller (Access),200,"Number of samples in transaction : 9, number of failing samples : 0",Thread Group 1-2,,true,,335259,7389,2,2,null,115,0,14
+1755310501736,8,HTTP Request (Login-13),200,OK,Thread Group 1-1,text,true,,1483,807,2,2,https://mow.azurewebsites.net/css/styles.css,8,0,0
+1755310501744,8,HTTP Request (Login-14),200,OK,Thread Group 1-1,bin,true,,7236,858,2,2,https://mow.azurewebsites.net/images/logo-mow.png,8,0,0
+1755310501752,8,HTTP Request (Login-15),200,OK,Thread Group 1-1,bin,true,,11173,869,2,2,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,7,0,0
+1755310501760,18,HTTP Request (Login-16),200,OK,Thread Group 1-1,text,true,,113683,791,2,2,https://mow.azurewebsites.net/js/jquery.js,8,0,0
+1755310501778,25,HTTP Request (Login-17),200,OK,Thread Group 1-1,text,true,,178274,794,3,3,https://mow.azurewebsites.net/js/jquery-ui.js,8,0,0
+1755310501803,8,HTTP Request (Login-18),200,OK,Thread Group 1-1,text,true,,1217,792,3,3,https://mow.azurewebsites.net/js/scripts.js,8,0,0
+1755310501552,259,Transaction Controller (Login),200,"Number of samples in transaction : 8, number of failing samples : 0",Thread Group 1-1,,true,,327604,8090,3,3,null,211,0,0
+1755310501784,56,HTTP Request (Access-1),200,OK,Thread Group 1-3,text,true,,3140,757,3,3,https://mow.azurewebsites.net/access?access=Login,56,0,14
+1755310501840,12,HTTP Request (Access-2),200,OK,Thread Group 1-3,text,true,,11330,816,3,3,https://mow.azurewebsites.net/css/jquery-ui.css,12,0,0
+1755310501853,10,HTTP Request (Access-3),200,OK,Thread Group 1-3,text,true,,1483,813,3,3,https://mow.azurewebsites.net/css/styles.css,10,0,0
+1755310501863,14,HTTP Request (Access-4),200,OK,Thread Group 1-3,bin,true,,7236,864,3,3,https://mow.azurewebsites.net/images/logo-mow.png,14,0,0
+1755310501877,14,HTTP Request (Access-5),200,OK,Thread Group 1-3,bin,true,,7719,869,3,3,https://mow.azurewebsites.net/images/logo-facebook.png,14,0,0
+1755310501892,15,HTTP Request (Access-6),200,OK,Thread Group 1-3,bin,true,,11173,875,3,3,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,15,0,0
+1755310501736,178,HTTP Request (Login-10),200,OK,Thread Group 1-2,text,true,,3215,2369,3,3,https://mow.azurewebsites.net/login_success,130,0,0
+1755310501736,130,HTTP Request (Login-10)-0,302,,Thread Group 1-2,,true,,470,1272,3,3,https://mow.azurewebsites.net/login,130,0,0
+1755310501866,48,HTTP Request (Login-10)-1,200,OK,Thread Group 1-2,text,true,,2745,1097,3,3,https://mow.azurewebsites.net/login_success,48,0,0
+1755310501914,21,HTTP Request (Login-12),200,OK,Thread Group 1-2,text,true,,11330,810,3,3,https://mow.azurewebsites.net/css/jquery-ui.css,19,0,0
+1755310501907,38,HTTP Request (Access-7),200,OK,Thread Group 1-3,text,true,,113681,797,3,3,https://mow.azurewebsites.net/js/jquery.js,25,0,0
+1755310501935,34,HTTP Request (Login-13),200,OK,Thread Group 1-2,text,true,,1483,807,3,3,https://mow.azurewebsites.net/css/styles.css,34,0,0
+1755310501969,14,HTTP Request (Login-14),200,OK,Thread Group 1-2,bin,true,,7236,858,3,3,https://mow.azurewebsites.net/images/logo-mow.png,14,0,0
+1755310501983,10,HTTP Request (Login-15),200,OK,Thread Group 1-2,bin,true,,11173,869,4,4,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,10,0,0
+1755310501945,57,HTTP Request (Access-8),200,OK,Thread Group 1-3,text,true,,178238,800,4,4,https://mow.azurewebsites.net/js/jquery-ui.js,26,0,0
+1755310501993,22,HTTP Request (Login-16),200,OK,Thread Group 1-2,text,true,,113683,791,4,4,https://mow.azurewebsites.net/js/jquery.js,9,0,0
+1755310502002,15,HTTP Request (Access-9),200,OK,Thread Group 1-3,text,true,,1217,798,4,4,https://mow.azurewebsites.net/js/scripts.js,15,0,0
+1755310501784,231,Transaction Controller (Access),200,"Number of samples in transaction : 9, number of failing samples : 0",Thread Group 1-3,,true,,335217,7389,4,4,null,187,2,14
+1755310501985,65,HTTP Request (Access-1),200,OK,Thread Group 1-4,text,true,,3140,757,4,4,https://mow.azurewebsites.net/access?access=Login,65,0,11
+1755310502015,65,HTTP Request (Login-17),200,OK,Thread Group 1-2,text,true,,178273,794,4,4,https://mow.azurewebsites.net/js/jquery-ui.js,15,0,0
+1755310502050,32,HTTP Request (Access-2),200,OK,Thread Group 1-4,text,true,,11330,816,4,4,https://mow.azurewebsites.net/css/jquery-ui.css,31,0,0
+1755310502082,18,HTTP Request (Access-3),200,OK,Thread Group 1-4,text,true,,1483,813,4,4,https://mow.azurewebsites.net/css/styles.css,18,0,0
+1755310502080,22,HTTP Request (Login-18),200,OK,Thread Group 1-2,text,true,,1217,792,4,4,https://mow.azurewebsites.net/js/scripts.js,22,0,0
+1755310501736,366,Transaction Controller (Login),200,"Number of samples in transaction : 8, number of failing samples : 0",Thread Group 1-2,,true,,327610,8090,4,4,null,253,0,0
+1755310502100,24,HTTP Request (Access-4),200,OK,Thread Group 1-4,bin,true,,7236,864,4,4,https://mow.azurewebsites.net/images/logo-mow.png,24,0,0
+1755310502125,39,HTTP Request (Access-5),200,OK,Thread Group 1-4,bin,true,,7719,869,4,4,https://mow.azurewebsites.net/images/logo-facebook.png,39,0,0
+1755310502164,36,HTTP Request (Access-6),200,OK,Thread Group 1-4,bin,true,,11173,875,5,5,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,35,0,0
+1755310502200,31,HTTP Request (Access-7),200,OK,Thread Group 1-4,text,true,,113683,797,5,5,https://mow.azurewebsites.net/js/jquery.js,17,0,0
+1755310502183,66,HTTP Request (Access-1),200,OK,Thread Group 1-5,text,true,,3140,757,5,5,https://mow.azurewebsites.net/access?access=Login,65,0,15
+1755310502249,9,HTTP Request (Access-2),200,OK,Thread Group 1-5,text,true,,11330,816,5,5,https://mow.azurewebsites.net/css/jquery-ui.css,8,0,0
+1755310502017,248,HTTP Request (Login-10),200,OK,Thread Group 1-3,text,true,,3215,2369,5,5,https://mow.azurewebsites.net/login_success,207,0,0
+1755310502017,207,HTTP Request (Login-10)-0,302,,Thread Group 1-3,,true,,470,1272,5,5,https://mow.azurewebsites.net/login,207,0,0
+1755310502224,41,HTTP Request (Login-10)-1,200,OK,Thread Group 1-3,text,true,,2745,1097,5,5,https://mow.azurewebsites.net/login_success,41,0,0
+1755310502265,10,HTTP Request (Login-12),200,OK,Thread Group 1-3,text,true,,11330,810,5,5,https://mow.azurewebsites.net/css/jquery-ui.css,9,0,0
+1755310502231,45,HTTP Request (Access-8),200,OK,Thread Group 1-4,text,true,,178273,800,5,5,https://mow.azurewebsites.net/js/jquery-ui.js,14,0,0
+1755310502258,25,HTTP Request (Access-3),200,OK,Thread Group 1-5,text,true,,1483,813,5,5,https://mow.azurewebsites.net/css/styles.css,25,0,0
+1755310502276,11,HTTP Request (Access-9),200,OK,Thread Group 1-4,text,true,,1217,798,5,5,https://mow.azurewebsites.net/js/scripts.js,11,0,0
+1755310501984,301,Transaction Controller (Access),200,"Number of samples in transaction : 9, number of failing samples : 0",Thread Group 1-4,,true,,335254,7389,5,5,null,254,2,11
+1755310502275,13,HTTP Request (Login-13),200,OK,Thread Group 1-3,text,true,,1483,807,5,5,https://mow.azurewebsites.net/css/styles.css,13,0,0
+1755310502283,16,HTTP Request (Access-4),200,OK,Thread Group 1-5,bin,true,,7236,864,5,5,https://mow.azurewebsites.net/images/logo-mow.png,16,0,0
+1755310502288,13,HTTP Request (Login-14),200,OK,Thread Group 1-3,bin,true,,7236,858,5,5,https://mow.azurewebsites.net/images/logo-mow.png,13,0,0
+1755310502299,18,HTTP Request (Access-5),200,OK,Thread Group 1-5,bin,true,,7719,869,5,5,https://mow.azurewebsites.net/images/logo-facebook.png,18,0,0
+1755310502301,19,HTTP Request (Login-15),200,OK,Thread Group 1-3,bin,true,,11173,869,5,5,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,19,0,0
+1755310502317,15,HTTP Request (Access-6),200,OK,Thread Group 1-5,bin,true,,11173,875,5,5,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,15,0,0
+1755310502320,43,HTTP Request (Login-16),200,OK,Thread Group 1-3,text,true,,113653,791,5,5,https://mow.azurewebsites.net/js/jquery.js,21,0,0
+1755310502333,33,HTTP Request (Access-7),200,OK,Thread Group 1-5,text,true,,113683,797,5,5,https://mow.azurewebsites.net/js/jquery.js,20,0,0
+1755310502364,36,HTTP Request (Login-17),200,OK,Thread Group 1-3,text,true,,178273,794,5,5,https://mow.azurewebsites.net/js/jquery-ui.js,12,0,0
+1755310502366,34,HTTP Request (Access-8),200,OK,Thread Group 1-5,text,true,,178189,800,5,5,https://mow.azurewebsites.net/js/jquery-ui.js,11,0,0
+1755310502400,18,HTTP Request (Login-18),200,OK,Thread Group 1-3,text,true,,1217,792,5,5,https://mow.azurewebsites.net/js/scripts.js,18,0,0
+1755310502017,400,Transaction Controller (Login),200,"Number of samples in transaction : 8, number of failing samples : 0",Thread Group 1-3,,true,,327580,8090,5,5,null,312,1,0
+1755310502401,31,HTTP Request (Access-9),200,OK,Thread Group 1-5,text,true,,1217,798,5,5,https://mow.azurewebsites.net/js/scripts.js,31,0,0
+1755310502183,247,Transaction Controller (Access),200,"Number of samples in transaction : 9, number of failing samples : 0",Thread Group 1-5,,true,,335170,7389,5,5,null,209,2,15
+1755310502287,258,HTTP Request (Login-10),200,OK,Thread Group 1-4,text,true,,3215,2369,5,5,https://mow.azurewebsites.net/login_success,202,0,0
+1755310502287,202,HTTP Request (Login-10)-0,302,,Thread Group 1-4,,true,,470,1272,5,5,https://mow.azurewebsites.net/login,202,0,0
+1755310502489,56,HTTP Request (Login-10)-1,200,OK,Thread Group 1-4,text,true,,2745,1097,5,5,https://mow.azurewebsites.net/login_success,56,0,0
+1755310502545,51,HTTP Request (Login-12),200,OK,Thread Group 1-4,text,true,,11330,810,5,5,https://mow.azurewebsites.net/css/jquery-ui.css,43,0,0
+1755310502596,15,HTTP Request (Login-13),200,OK,Thread Group 1-4,text,true,,1483,807,5,5,https://mow.azurewebsites.net/css/styles.css,15,0,0
+1755310502612,13,HTTP Request (Login-14),200,OK,Thread Group 1-4,bin,true,,7236,858,5,5,https://mow.azurewebsites.net/images/logo-mow.png,13,0,0
+1755310502625,18,HTTP Request (Login-15),200,OK,Thread Group 1-4,bin,true,,11173,869,5,5,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,18,0,0
+1755310502432,239,HTTP Request (Login-10),200,OK,Thread Group 1-5,text,true,,3215,2369,5,5,https://mow.azurewebsites.net/login_success,190,0,0
+1755310502432,190,HTTP Request (Login-10)-0,302,,Thread Group 1-5,,true,,470,1272,5,5,https://mow.azurewebsites.net/login,190,0,0
+1755310502622,49,HTTP Request (Login-10)-1,200,OK,Thread Group 1-5,text,true,,2745,1097,5,5,https://mow.azurewebsites.net/login_success,49,0,0
+1755310502671,14,HTTP Request (Login-12),200,OK,Thread Group 1-5,text,true,,11323,810,5,5,https://mow.azurewebsites.net/css/jquery-ui.css,13,0,0
+1755310502643,43,HTTP Request (Login-16),200,OK,Thread Group 1-4,text,true,,113682,791,5,5,https://mow.azurewebsites.net/js/jquery.js,20,0,0
+1755310502686,13,HTTP Request (Login-13),200,OK,Thread Group 1-5,text,true,,1483,807,5,5,https://mow.azurewebsites.net/css/styles.css,13,0,0
+1755310502687,1132,HTTP Request (Login-17),200,OK,Thread Group 1-4,text,true,,178280,794,5,5,https://mow.azurewebsites.net/js/jquery-ui.js,1081,0,0
+1755310502699,1125,HTTP Request (Login-14),200,OK,Thread Group 1-5,bin,true,,7236,858,5,5,https://mow.azurewebsites.net/images/logo-mow.png,1078,0,0
+1755310503819,6,HTTP Request (Login-18),200,OK,Thread Group 1-4,text,true,,1217,792,5,5,https://mow.azurewebsites.net/js/scripts.js,6,0,0
+1755310502287,1536,Transaction Controller (Login),200,"Number of samples in transaction : 8, number of failing samples : 0",Thread Group 1-4,,true,,327616,8090,5,5,null,1398,2,0
+1755310503824,9,HTTP Request (Login-15),200,OK,Thread Group 1-5,bin,true,,11173,869,5,5,https://mow.azurewebsites.net/images/portrait-lim-ivonne.jpg,7,0,0
+1755310503833,29,HTTP Request (Login-16),200,OK,Thread Group 1-5,text,true,,113683,791,5,5,https://mow.azurewebsites.net/js/jquery.js,8,0,0
+1755310503862,22,HTTP Request (Login-17),200,OK,Thread Group 1-5,text,true,,178280,794,5,5,https://mow.azurewebsites.net/js/jquery-ui.js,7,0,0
+1755310503884,13,HTTP Request (Login-18),200,OK,Thread Group 1-5,text,true,,1217,792,5,5,https://mow.azurewebsites.net/js/scripts.js,13,0,0
+1755310502432,1464,Transaction Controller (Login),200,"Number of samples in transaction : 8, number of failing samples : 0",Thread Group 1-5,,true,,327610,8090,5,5,null,1329,1,0

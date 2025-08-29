@@ -1,0 +1,120 @@
+/* Page Responsiveness */
+
+@media (min-width: 1024px) {
+
+  footer td, header td {
+
+    width: 192px; /* 100px expanded to 192px */
+
+  }
+
+}
+
+
+/* Page-Container, Content-Wrap and Footer Positioning */
+
+#page-container {
+
+  position:   relative;
+  min-height: 100vh; /* 100% of viewport height instead of container height */
+
+}
+
+#content-wrap {
+
+  padding-bottom: 4rem; /* 4 of root font size */
+  
+}
+
+#footer {
+
+  position: absolute;
+  bottom:   0px;  /* 0px from page container */
+  width:    100%; /* 100% of container width instead of viewport width */
+  height:   4rem; /* 4 of root font size */
+  	
+}
+
+
+/* Main, Breadcrumb, Sidebar and Content Settings */
+
+#main-home, #main-contacts {
+
+  background-image:    url('/images/background-road.jpg');
+  background-position: center;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+
+  min-height: calc(100vh - 5rem - 5rem);
+     /* 100% of viewport height - 5 of root font size for header height - 5 of root font size for footer height */ 
+
+ /********************************************************************************
+  Consideration:  Set text color to white for better visibility.
+  ********************************************************************************/
+
+}
+
+#breadcrumb {
+
+  margin: 10px;
+
+}
+
+#sidebar {
+
+  float: right;
+  margin-left: 20px; /* 20px from left of sidebar container */
+  width: 45%;        /* 45% of container width instead of viewport width */
+
+}
+
+#content {
+
+  margin: 10px;
+	
+}
+
+#content table {
+
+  border-spacing: 0px 0px; /* table's cellspacing not supported in HTML5 and CSS */
+
+}
+
+
+/* Footer and Header Settings */
+
+footer table, header table {
+
+  background-color: lightblue;
+  width: 100%;              /* table's width not supported in HTML5 */
+  border-spacing: 10px 0px; /* table's cellspacing not supported in HTML5 and CSS */
+
+}
+
+
+/* Table Settings (Content, Footer and Header) */
+
+caption {
+
+  text-align: left;
+
+}
+
+th {
+
+  text-align: left;
+  padding: 10px 10px;  /* table's cellpadding not supported in HTML5 and CSS */
+
+}
+
+tr {
+
+  vertical-align: top; /* td's valign not supported in HTML5 and CSS */
+
+}
+
+td {
+
+  padding: 10px 10px;  /* table's cellpadding not supported in HTML5 and CSS */
+
+}

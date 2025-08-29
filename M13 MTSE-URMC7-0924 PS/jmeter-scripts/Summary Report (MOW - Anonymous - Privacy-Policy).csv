@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755307855881,28,HTTP Request (Privacy-Policy-1),200,OK,Thread Group 1-5,text,true,,363547,977,5,5,https://mow.azurewebsites.net/pdf/policy-privacy.pdf,16,0,0
+1755307855881,28,Transaction Controller (Privacy-Policy),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,363547,977,5,5,null,16,1,0
+1755307855881,29,HTTP Request (Privacy-Policy-1),200,OK,Thread Group 1-4,text,true,,363547,977,5,5,https://mow.azurewebsites.net/pdf/policy-privacy.pdf,20,0,0
+1755307855881,29,Transaction Controller (Privacy-Policy),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,363547,977,5,5,null,20,0,0
+1755307855881,31,HTTP Request (Privacy-Policy-1),200,OK,Thread Group 1-2,text,true,,363547,977,5,5,https://mow.azurewebsites.net/pdf/policy-privacy.pdf,19,0,0
+1755307855881,31,Transaction Controller (Privacy-Policy),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,363547,977,5,5,null,19,0,0
+1755307855881,31,HTTP Request (Privacy-Policy-1),200,OK,Thread Group 1-1,text,true,,363547,977,5,5,https://mow.azurewebsites.net/pdf/policy-privacy.pdf,18,0,0
+1755307855881,31,Transaction Controller (Privacy-Policy),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,363547,977,5,5,null,18,0,0
+1755307855966,510,HTTP Request (Privacy-Policy-1),200,OK,Thread Group 1-3,text,true,,363547,977,4,4,https://mow.azurewebsites.net/pdf/policy-privacy.pdf,9,0,0
+1755307855966,510,Transaction Controller (Privacy-Policy),200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,363547,977,4,4,null,9,0,0
